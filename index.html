@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="icon" href="/icon.png" type="image/icon type">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- header start -->
+    <header class="header"> <!--header.header - makes header with class header-->
+       <a href="index.html" class="logo"> <img src="icon2.png""></i> Guess </a>
+       <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#products">products</a>      
+        <a href="#bestsellers">bestsellers</a>
+        <a href="#outlet">outlet</a>
+        <a href="#review">review</a>
+        <a href="#blogs">blogs</a>
+        <a href="#team">team</a>
+       </nav>
+
+       <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+       </div>
+
+       <form action="" class="search-form">
+          <input type="search" id="search-box" placeholder="search here...">
+          <label for="search-box" class="fas fa-search"></label>
+       </form>
+
+       <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="clothes-1.jpg" alt="">
+            <div class="content">
+                <h3>Guess T-shirt</h3>
+                <span class="price">$59.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+       </div>
+
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="clothes-2.jpg" alt="">
+            <div class="content">
+                <h3>Guess T-shirt</h3>
+                <span class="price">$59.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+       <div class="total">total : $119.98</div>
+       <a href="#" class="btn">checkout</a>
+    </div>   
+    
+    <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <p>forget your passowrd <a href="">click here</a></p>
+        <p>don't have an account <a href="">create now</a></p>
+        <input type="sumbit" value="login now" class="btn">
+    </form>
+    </header>
+    <!-- header end -->
+
+    <!--home s start-->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Shop the latest season collections and pick your favourite <span>Guess</span> styles for a new attire.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde vero magnam vel repudiandae quas doloribus consequatur error explicabo alias? Accusamus quasi impedit officiis dicta excepturi nemo. Quas aut eum molestias!</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+    </section>
+    <!--home end-->
+
+    <!--products s start-->
+    <section class="products" id="products">
+        <h1 class="heading">our <span>products</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="img_07.avif" alt="">
+                <h3>Jewellery</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere quasi, unde ipsum blanditiis delectus autem laboriosam!</p>
+                <a href="#" class="btn">check out</a>
+            </div>
+
+            <div class="box">
+                <img src="img_08.avif" alt="">
+                <h3>watches</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere quasi, unde ipsum blanditiis delectus autem laboriosam!</p>
+                <a href="#" class="btn">check out</a>
+            </div>
+
+            <div class="box">
+                <img src="img_09.avif" alt="">
+                <h3>Fragrances</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere quasi, unde ipsum blanditiis delectus autem laboriosam!</p>
+                <a href="#" class="btn">check out</a>
+            </div>
+        </div>
+    </section>
+    <!--products s end-->
+
+    <!--bestsellers s start-->
+    <section class="bestsellers" id="bestsellers">
+        <h1 class="heading">our<span>bestsellers</span></h1>
+        <div class="swiper bestsellers-slider">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="bestsellers1.avif" alt="">
+                    <h2>Front logo sweater</h2>
+                    <div class="price">90.00 €</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="bestsellers2.avif" alt="">
+                    <h2>Lace-up sweater dress </h2>
+                    <div class="price">150.00 €</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="bestsellers3.avif" alt="">
+                    <h2>Front logo print t-shirt</h2>
+                    <div class="price">45.00 €</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="bestsellers4.avif" alt="">
+                    <h2>Icon logo sweatshirt </h2>
+                    <div class="price">99.00 €</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="bestsellers5.avif" alt="">
+                    <h2>Front logo sweatshirt</h2>
+                    <div class="price">70.00 €</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper bestsellers-slider">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="bestsellers6.avif" alt="">
+                    <h2>Cropped side logo sweatshirt</h2>
+                    <div class="price">85.00 €</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="bestsellers7.avif" alt="">
+                    <h2>Floral print sweatshirt </h2>
+                    <div class="price"> 99.00 €</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="bestsellers8.avif" alt="">
+                    <h2>Reversible puffer vest </h2>
+                    <div class="price">130.00 €</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="bestsellers9.avif" alt="">
+                    <h2>Back Betty Boop patch faux fur jacket</h2>
+                    <div class="price">230.00 €</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="bestsellers10.avif" alt="">
+                    <h2>Faux fur jacket </h2>
+                    <div class="price">220.00 €</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--bestsellers s end-->
+    
+    <!--outlet s start-->
+    <section class="outlet" id="outlet">
+        <h1 class="heading">product<span>outlet</span></h1>
+        <div class="box-container">
+
+            <div class="box">
+                <img src="sales-1.avif" alt="">
+                <h3>t-shirt</h3>
+                <p>upto -50%</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="sales-3.avif" alt="">
+                <h3>denim</h3>
+                <p>upto -50%</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="sales-4.avif" alt="">
+                <h3>skirts</h3>
+                <p>upto -50%</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="sales-2.avif" alt="">
+                <h3>jacket</h3>
+                <p>upto -50%</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+    </section>
+    <!--outlet s end-->
+    <!--review s start-->
+
+    <section class="review" id="review">
+
+        <h1 class="heading">customer's<span>review</span></h1>
+
+        <div class="swiper review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="/review.avif" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci modi labore tempore excepturi laudantium saepe id deserunt unde, 
+                    architecto a quaerat est voluptates quam non maxime possimus! Odit, sapiente necessitatibus.</p>
+                    <h3>john deo</h3>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="/review.avif" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci modi labore tempore excepturi laudantium saepe id deserunt unde, 
+                    architecto a quaerat est voluptates quam non maxime possimus! Odit, sapiente necessitatibus.</p>
+                    <h3>john deo</h3>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="/review.avif" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci modi labore tempore excepturi laudantium saepe id deserunt unde, 
+                    architecto a quaerat est voluptates quam non maxime possimus! Odit, sapiente necessitatibus.</p>
+                    <h3>john deo</h3>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="/review.avif" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci modi labore tempore excepturi laudantium saepe id deserunt unde, 
+                    architecto a quaerat est voluptates quam non maxime possimus! Odit, sapiente necessitatibus.</p>
+                    <h3>john deo</h3>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--review s end-->
+    <!--blogs s start-->
+    <section class="blogs" id="blogs">
+
+        <h1 class="heading">our<span>blogs</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="/blogs.avif" alt="">
+                <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fas fa-user"></i>by user</a>
+                    <a href="#"><i class="fas fa-calendar"></i>1st may, 2021</a>
+                </div>
+                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod hic ullam debitis obcaecati aut sequi aliquam eaque velit itaque, saepe ipsa facere officiis fuga temporibus. Quia optio magnam perferendis animi.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+            <div class="box">
+                <img src="/blogs.avif" alt="">
+                <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fas fa-user"></i>by user</a>
+                    <a href="#"><i class="fas fa-calendar"></i>1st may, 2021</a>
+                </div>
+                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod hic ullam debitis obcaecati aut sequi aliquam eaque velit itaque, saepe ipsa facere officiis fuga temporibus. Quia optio magnam perferendis animi.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+            <div class="box">
+                <img src="/blogs.avif" alt="">
+                <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fas fa-user"></i>by user</a>
+                    <a href="#"><i class="fas fa-calendar"></i>1st may, 2021</a>
+                </div>
+                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod hic ullam debitis obcaecati aut sequi aliquam eaque velit itaque, saepe ipsa facere officiis fuga temporibus. Quia optio magnam perferendis animi.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+        </div>
+
+    </section>
+    <!--blogs s end-->
+
+    <!--footer section start-->
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>lorem ipsum <i class="fas fa-shopping-basket"></i></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, assumenda!</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +123-456-7890</a>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +111-222-3333</a>
+                <a href="#" class="links"> <i class="fas fa-envelope"></i> sdiadadm@gmail.com</a>
+                <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> mumbai, india - 400104</a>
+            </div>
+
+            
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home" class="links"> <i class="fas fa-arrow-right"></i>home</a>
+                <a href="#products" class="links"> <i class="fas fa-arrow-right"></i>products</a>
+                <a href="#bestsellers" class="links"> <i class="fas fa-arrow-right"></i>bestsellers</a>
+                <a href="#outlet" class="links"> <i class="fas fa-arrow-right"></i>outlet</a>
+                <a href="#review" class="links"> <i class="fas fa-arrow-right"></i>review</a>
+                <a href="#blogs" class="links"> <i class="fas fa-arrow-right"></i>blogs</a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <input type="email" placeholder="your email" class="email">
+                <input type="sumbit" value="subscribe" class="btn">
+                <img src="peyment-method.png" class="payment-img"alt="">
+            </div>
+        </div>
+        <div class="credit">created by <span>Nelly Georgieva</span> | all right reserved</div>
+    </section>
+    <!--footer section end-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="/script.js"></script>
+</body>
+</html>
